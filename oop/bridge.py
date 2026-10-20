@@ -1,9 +1,11 @@
 class Bridge:
-    name = "karvenager Bridge"
-    length = "500 meters"
+    def __init__(self, name, location, length):
+        self.name = name
+        self.location = location
+        self.length = length
 
-    def open_bridge():
-        pass
+b1 = Bridge("Karvengar Bridge", "Pune", 500)
+b2 = Bridge("Warge Bridge", "Pune", 705)
 
-    def close_bridge():
-        pass
+print(b1.name, b1.location, b1.length)
+print(b2.name, b2.location, b2.length)

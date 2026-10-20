@@ -11,7 +11,5 @@
 # print(even_list)
 
 
-import keyword
-
-print(keyword.kwlist)
-print(len(keyword))
+# print(keyword.kwlist)
+# print(len(keyword))
