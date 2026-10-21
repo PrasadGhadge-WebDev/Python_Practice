@@ -1,3 +1,4 @@
+
 class Mouse:
     def __init__(self, brand, color, type):
         self.brand = brand
@@ -6,6 +7,16 @@ class Mouse:
 
 m1 = Mouse("Dell", "Black", "Wired")
 m2 = Mouse("HP", "White", "Wireless")
+m3 = Mouse("Logitech", "Grey", "Wireless")
+m4 = Mouse("Lenovo", "Black", "Wired")
+m5 = Mouse("Asus", "White", "Wireless")
+m6 = Mouse("Zebronics", "Red", "Wired")
+m7 = Mouse("Razer", "Green", "Wireless")
 
-print(m1.brand, m1.color, m1.type)
-print(m2.brand, m2.color,  m2.type)
+Mylist = [m1, m2, m3, m4, m5, m6, m7]
+
+for i in Mylist:
+    print("Brand:", i.brand)
+    print("Color:", i.color)
+    print("Type:", i.type)
+    print("====================")
